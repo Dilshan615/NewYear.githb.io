@@ -6,7 +6,7 @@ function createCountdown(countdownEl) {
     new Date(countdownEl.dataset.targetDate).toLocaleString("en")
   );
   const parts = {
-    days: { text: ["days", "day"], dots: 50 },
+    days: { text: ["days", "day"], dots: 60 },
     hours: { text: ["hours", "hour"], dots: 24 },
     minutes: { text: ["minutes", "minute"], dots: 60 },
     seconds: { text: ["seconds", "second"], dots: 60 },
